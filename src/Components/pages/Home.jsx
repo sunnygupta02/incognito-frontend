@@ -68,7 +68,9 @@ const Home = () => {
                                 href="mailto:contact.kumargaurav12@gmail.com"
                                 className="text-indigo-600 hover:text-indigo-800 hover:underline transition duration-300 break-all"
                             >
-                                sunny.gupta@s.amity.edu & 6shreya04@gmail.com
+                                sunny.gupta@s.amity.edu
+                                <br />
+                                shreya.issar@s.amity.edu
                             </a>
                         </li>
                         <li className="flex items-center">
