@@ -27,7 +27,7 @@ const Login = () => {
     setLoginError('')
     setLoginLoading(true)
     try {
-      const response = await axios.post(`${API_URL}/api/users/login`, {
+      const response = await axios.post(`${API_URL}/users/login`, {
         email: loginEmail,
         password: loginPassword,
       })
@@ -51,7 +51,7 @@ const Login = () => {
     setRegSuccess('')
     setRegLoading(true)
     try {
-      const response = await axios.post(`${API_URL}/api/users/register`, {
+      const response = await axios.post(`${API_URL}/users/register`, {
         name: regName,
         email: regEmail,
         password: regPassword,
